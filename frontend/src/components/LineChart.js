@@ -166,7 +166,7 @@ const LineChart = () => {
       fetchData()
     }, 1000*60);
 
-  }, []);
+  }, [minutes]);
   
 
 
