@@ -163,7 +163,7 @@ const LineChart = () => {
     fetchData()
     setInterval(() => {
       setMinutes(minutes => minutes + 1);
-      fetchData()
+      // fetchData()
     }, 1000*60);
 
   }, [minutes]);
